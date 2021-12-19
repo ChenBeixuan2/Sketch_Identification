@@ -73,7 +73,7 @@ function updateCanvas()
             document.getElementById('Timer').innerHTML = 'Timer: ' + timer_counter; 
             console.log(timer_counter) 
 
-            if(timer_counter > 400) 
+            if(timer_counter > 1200) 
             { 
                 timer_counter = 0; 
                 timer_check = "completed" 
