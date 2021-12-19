@@ -1,0 +1,57 @@
+body
+{
+    background-color: rgba(0, 255, 0, 0.525);
+}
+
+#Score
+{
+    font-size:35px; 
+    margin-left: 20px;
+    float: left;
+}
+
+#Timer
+{
+    font-size:35px; 
+    float: right; 
+    margin-right: 20px; 
+}
+
+#STBD
+{
+    color: rgba(255, 0, 0, 0.519);
+    font-size: 20px;
+}
+
+#Confidence
+{
+font-size: 20px;
+}
+
+#Sketch
+{
+    font-size: 20px;
+}
+
+#show_sketch
+{
+    float: right
+}
+
+canvas { 
+    border:5px solid white; 
+    border-radius:20px; 
+    margin-top:150px; 
+    box-shadow:5px 5px 5px grey; 
+    box-shadow: 1px 1px 38px #ffffff; 
+    animation-name: example; 
+    animation-duration: 4s; 
+    animation-iteration-count: infinite; } 
+    @keyframes example { from 
+        {box-shadow: 1px 1px 38px grey;} 
+        to {box-shadow: 1px 1px 38px white;} } 
+        p, span 
+        { 
+            padding-top:10px; 
+            font-family: 'Special Elite', fantasy; 
+            font-size:25px; } 
